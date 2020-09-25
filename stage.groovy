@@ -6,7 +6,7 @@ pipeline{
 	agent any
 	stages{
 		stage("Hello Pipeline") {
-                    step{
+                    steps {
 			script {
 				println "Hello Pipeline!"
 				println env.JOB_NAME
